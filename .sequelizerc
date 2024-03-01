@@ -1,0 +1,11 @@
+const path = require('path');
+
+module.exports = {
+    'config': path.resolve('./src/config', 'config.json'),
+    'models-path': path.resolve('./src/models'),
+    'seeders-path': path.resolve('./src/seeders'),
+    'migrations-path': path.resolve('./src/migrations'),
+}
+
+//esse arquivo diz para o cli do sequelize onde estão os arquivos.
+//se alterar o caminho dos arquivos é só mudar por aqui.
